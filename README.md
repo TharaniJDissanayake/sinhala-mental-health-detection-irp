@@ -1,5 +1,5 @@
 Project Overview
-- This project aims to detect mental health conditions specifically depression, anxiety, and normal states from Sinhala social media text using various machine learning and deep learning approaches.
+- This project aims to detect mental health conditions, specifically depression, anxiety, and normal states, from Sinhala social media text using various machine learning and deep learning approaches.
 The research focuses on low-resource language processing and explainable AI (XAI), addressing gaps in existing Sinhala mental health detection studies.
 
 Six models were implemented and evaluated:
@@ -16,7 +16,7 @@ Six models were implemented and evaluated:
 
 - XLM-RoBERTa (XLM-R) Transformer Model
 
-Explainability techniques (LIME, Feature Importance) were integrated to make the models interpretable.
+= Explainability techniques (LIME, Feature Importance) were integrated to make the models interpretable.
 
 Data
 
@@ -30,13 +30,11 @@ Model Training
 
 - Traditional Machine Learning models (LR, SVM, RF, XGB) were trained using TF-IDF features.
 
-- CNN model was trained with learned dense word embeddings.
+- The CNN model was trained with learned dense word embeddings.
 
 - XLM-RoBERTa used a pre-trained transformer model fine-tuned on the Sinhala dataset.
 
 Evaluation Metrics
-
-Each model was evaluated on:
 
 - Accuracy
 
@@ -68,7 +66,7 @@ Tools and Libraries
 
 - Hugging Face Transformers
 
-- Matplotlib, Seaborn for visualization
+- Matplotlib, Seaborn for visualisation
 
 - Imbalanced-learn (SMOTE for class balancing)
 
