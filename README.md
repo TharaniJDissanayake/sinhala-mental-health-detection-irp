@@ -1,5 +1,5 @@
 Project Overview
-This project aims to detect mental health conditions — specifically depression, anxiety, and normal states — from Sinhala social media text using various machine learning and deep learning approaches.
+- This project aims to detect mental health conditions specifically depression, anxiety, and normal states from Sinhala social media text using various machine learning and deep learning approaches.
 The research focuses on low-resource language processing and explainable AI (XAI), addressing gaps in existing Sinhala mental health detection studies.
 
 Six models were implemented and evaluated:
@@ -20,19 +20,19 @@ Explainability techniques (LIME, Feature Importance) were integrated to make the
 
 Data
 
-The dataset was created by translating English mental health text datasets into Sinhala using secure and ethical translation practices.
+- The dataset was created by translating English mental health text datasets into Sinhala using secure and ethical translation practices.
 
-It includes Unicode Sinhala text, annotated into three classes: Depression, Anxiety, and Normal.
+- It includes Unicode Sinhala text, annotated into three classes: Depression, Anxiety, and Normal.
 
-Publicly available English datasets were ethically adapted, ensuring no private user information was involved.
+- Publicly available English datasets were ethically adapted, ensuring no private user information was involved.
 
 Model Training
 
-Traditional Machine Learning models (LR, SVM, RF, XGB) were trained using TF-IDF features.
+- Traditional Machine Learning models (LR, SVM, RF, XGB) were trained using TF-IDF features.
 
-CNN model was trained with learned dense word embeddings.
+- CNN model was trained with learned dense word embeddings.
 
-XLM-RoBERTa used a pre-trained transformer model fine-tuned on the Sinhala dataset.
+- XLM-RoBERTa used a pre-trained transformer model fine-tuned on the Sinhala dataset.
 
 Evaluation Metrics
 
@@ -44,7 +44,7 @@ Each model was evaluated on:
 
 - Recall
 
-F1-Score
+- F1-Score
 
 - ROC-AUC
 
