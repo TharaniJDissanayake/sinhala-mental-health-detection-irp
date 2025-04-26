@@ -16,7 +16,7 @@ Six models were implemented and evaluated:
 
 - XLM-RoBERTa (XLM-R) Transformer Model
 
-= Explainability techniques (LIME, Feature Importance) were integrated to make the models interpretable.
+- Explainability techniques (LIME, Feature Importance) were integrated to make the models interpretable.
 
 Data
 
